@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER alex <alexwhen@gmail.com> 
+LABEL maintainer="0x524c <rogeriolucas@gmail.com>"
 
 RUN apk --update add nginx
 
